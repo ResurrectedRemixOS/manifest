@@ -127,7 +127,6 @@
   <project name="packages_apps_RRWallpapers" path="packages/apps/RRWallpapers" remote="rr" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
-  <project name="packages_overlays_Resurrection" path="packages/overlays/Resurrection" remote="rr" />
   <project name="frameworks_opt_slimrecent" path="frameworks/opt/slimrecent" remote="rr" />
   <project name="vendor_extras" path="vendor/extras" remote="rr" />
 
