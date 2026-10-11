@@ -1,3 +1,7 @@
+<p align="center"><img src="./Manifests_Banner.png" alt="Resurrected Remix Manifests" width="100%"></p>
+
+---
+
 ## Resurrected Remix ##
 
 Resurrected Remix is a custom ROM for Android based on LineageOS. It adds the Remixer hub for theming and customization, along with features picked from other ROMs and adapted for RR.
