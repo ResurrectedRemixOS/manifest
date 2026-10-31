@@ -128,6 +128,7 @@
   <project name="vendor_rr" path="vendor/rr" remote="rr" />
 
   <!-- Resurrected Remix -->
+  <project name="packages_apps_BugReport" path="packages/apps/BugReport" remote="rr" />
   <project name="packages_apps_Remixer" path="packages/apps/Remixer" remote="rr" />
   <project name="packages_apps_Stitch" path="packages/apps/Stitch" remote="rr" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
