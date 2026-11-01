@@ -16,6 +16,14 @@ Credits:
   * [SlimRoms](https://github.com/SlimRoms)
   * [VoltageOS](https://github.com/VoltageOS)
 
+### Access ###
+
+The source is private to members of the ResurrectedRemixOS organization for now. Before syncing, have git use your GitHub SSH key for it:
+
+```bash
+git config --global url."git@github.com:ResurrectedRemixOS/".insteadOf "https://github.com/ResurrectedRemixOS/"
+```
+
 ### Sync ###
 
 ```bash
@@ -25,6 +33,8 @@ repo init -u https://github.com/ResurrectedRemixOS/manifest -b rr-17.0 --git-lfs
 # Sync
 repo sync -c -d --no-clone-bundle --no-tags
 ```
+
+`snippets/lineage-pin.xml` fixes every LineageOS repo to the commit RR is built and tested on, so everyone syncs the same source. The forks in `snippets/rr.xml` follow `rr-17.0`. Device trees, kernels and vendor blobs are in [ResurrectedRemix-Devices](https://github.com/ResurrectedRemix-Devices) and aren't part of this manifest.
 
 ### Build ###
 
