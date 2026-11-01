@@ -11,6 +11,7 @@
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 
   <remove-project name="LineageOS/android" path="android" />
+  <remove-project name="LineageOS/android_packages_apps_Canvas" path="packages/apps/Canvas" />
 
   <!-- Drop the LineageOS definitions we replace. Paths redefined below. -->
   <remove-project name="LineageOS/android_art" path="art" />
@@ -136,6 +137,9 @@
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
   <project name="frameworks_opt_slimrecent" path="frameworks/opt/slimrecent" remote="rr" />
   <project name="vendor_extras" path="vendor/extras" remote="rr" />
+
+  <!-- salami: sm8550-common lists it as a Soong namespace. -->
+  <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" />
 
   <!-- From VoltageOS, unchanged. Mirrored so a VoltageOS update can't break Launcher3. -->
   <project name="packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="rr" />
