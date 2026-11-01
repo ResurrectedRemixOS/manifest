@@ -1104,4 +1104,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/lineage-pin.xml" />
 </manifest>
