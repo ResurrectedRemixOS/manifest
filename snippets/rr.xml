@@ -13,6 +13,7 @@
   <remove-project name="LineageOS/android" path="android" />
 
   <!-- Drop the LineageOS definitions we replace. Paths redefined below. -->
+  <remove-project name="LineageOS/android_art" path="art" />
   <remove-project name="LineageOS/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_bootable_recovery" path="bootable/recovery" />
   <remove-project name="LineageOS/android_build" path="build/make" />
@@ -48,6 +49,7 @@
   <project name="manifest" path="manifest" remote="rr" />
 
   <!-- Platform -->
+  <project name="art" path="art" remote="rr" groups="pdk" />
   <project name="bionic" path="bionic" remote="rr" groups="pdk" />
   <project name="bootable_recovery" path="bootable/recovery" remote="rr" groups="pdk" />
   <project name="build_make" path="build/make" remote="rr" groups="pdk,sysui-studio">
