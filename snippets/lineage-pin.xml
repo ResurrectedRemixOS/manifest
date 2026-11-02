@@ -104,7 +104,7 @@
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_external_zstd" path="external/zstd" revision="1bfdf8aef6bdec0e817c1f75aeaf382db22de668"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
-  <extend-project name="LineageOS/android_frameworks_hardware_interfaces" path="frameworks/hardware/interfaces" revision="9de6d032a248523c22d0bd86e224d1762355c41e"
+  <extend-project name="LineageOS/android_frameworks_hardware_interfaces" path="frameworks/hardware/interfaces" revision="f80da5a738798ed94d061f79ebe78edf26391424"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_frameworks_opt_car_services" path="frameworks/opt/car/services" revision="4f323bff6b3c971f98773e0b6490334fcf6a2176"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
