@@ -112,7 +112,7 @@
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" revision="02ce1b699c02dc02f1360bcf921992a7e0d35f37"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
-  <extend-project name="LineageOS/android_hardware_google_interfaces" path="hardware/google/interfaces" revision="a36774a8665b72a64cb495501984e8fa0cbb0e53"
+  <extend-project name="LineageOS/android_hardware_google_interfaces" path="hardware/google/interfaces" revision="17741d228def813f7a1c03003b2c87f0d0e32b93"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" revision="8bd3c71cf2be40cfbe8f5a4b9bf5574ee9fbc624"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
