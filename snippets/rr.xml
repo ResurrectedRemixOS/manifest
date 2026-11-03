@@ -21,6 +21,7 @@
   <remove-project name="LineageOS/android_build_soong" path="build/soong" />
   <remove-project name="LineageOS/android_device_google_car" path="device/google_car" />
   <remove-project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
+  <remove-project name="platform/external/bouncycastle" path="external/bouncycastle" />
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_libs_systemui" path="frameworks/libs/systemui" />
@@ -64,6 +65,7 @@
   <project name="build_soong" path="build/soong" remote="rr" groups="pdk,tradefed,sysui-studio" />
   <project name="device_google_car" path="device/google_car" remote="rr" groups="device,pdk" />
   <project name="device_lineage_sepolicy" path="device/lineage/sepolicy" remote="rr" />
+  <project name="external_bouncycastle" path="external/bouncycastle" remote="rr" groups="pdk" />
   <project name="frameworks_av" path="frameworks/av" remote="rr" groups="pdk,sysui-studio" />
   <project name="frameworks_base" path="frameworks/base" remote="rr"
            groups="pdk-cw-fs,pdk-fs,sysui-studio" />
