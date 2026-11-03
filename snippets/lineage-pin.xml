@@ -26,8 +26,6 @@
                   upstream="refs/heads/lineage-24.0-legacy-um" dest-branch="refs/heads/lineage-24.0-legacy-um" />
   <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8450" revision="a6bcda4da1e7fc3677c61b24495e00671294dfc5"
                   upstream="refs/heads/lineage-24.0-caf-sm8450" dest-branch="refs/heads/lineage-24.0-caf-sm8450" />
-  <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" revision="eb8f2694215637b4cad0f158611c13c064f674d6"
-                  upstream="refs/heads/lineage-24.0-caf-sm8550" dest-branch="refs/heads/lineage-24.0-caf-sm8550" />
   <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8650" revision="3d37d21988dcc27bacefc37bb469b628d5790322"
                   upstream="refs/heads/lineage-24.0-caf-sm8650" dest-branch="refs/heads/lineage-24.0-caf-sm8650" />
   <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8850" revision="08110cc1a7e540367543d9cfac489be2b1517f49"

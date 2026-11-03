@@ -33,6 +33,7 @@
   <remove-project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
   <remove-project name="platform/system/tools/aidl" path="system/tools/aidl" />
   <remove-project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8750" />
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" />
   <remove-project name="LineageOS/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" />
@@ -81,6 +82,10 @@
   <project name="system_sepolicy" path="system/sepolicy" remote="rr" groups="pdk" />
   <project name="system_tools_aidl" path="system/tools/aidl" remote="rr" groups="pdk" />
   <project name="tools_extract-utils" path="tools/extract-utils" remote="rr" />
+
+  <!-- Qualcomm sm8550 -->
+  <project name="device_qcom_sepolicy_vndr_sm8550" path="device/qcom/sepolicy_vndr/sm8550" remote="rr"
+           groups="qcom,kailua-vendor" />
 
   <!-- Qualcomm sm8750 -->
   <project name="device_qcom_sepolicy_vndr_sm8750" path="device/qcom/sepolicy_vndr/sm8750" remote="rr"
