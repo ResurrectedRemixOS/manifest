@@ -7,6 +7,12 @@
            sync-j="4"
            revision="refs/heads/rr-17.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/osm1019/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/rr-17.0" />
+
   <!-- vendor/lineage becomes vendor/rr. -->
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 
@@ -138,6 +144,9 @@
 
   <!-- Replaces vendor/lineage, removed above. -->
   <project name="vendor_rr" path="vendor/rr" remote="rr" />
+
+  <!-- GMS blobs. Kept on GitLab, not in the org. -->
+  <project name="vendor_gms" path="vendor/gms" remote="gitlab" />
 
   <!-- Resurrected Remix -->
   <project name="packages_apps_BugReport" path="packages/apps/BugReport" remote="rr" />

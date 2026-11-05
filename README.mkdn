@@ -34,7 +34,7 @@ repo init -u https://github.com/ResurrectedRemixOS/manifest -b rr-17.0 --git-lfs
 repo sync -c -d --no-clone-bundle --no-tags
 ```
 
-`snippets/lineage-pin.xml` fixes every LineageOS repo to the commit RR is built and tested on, so everyone syncs the same source. The forks in `snippets/rr.xml` follow `rr-17.0`. Device trees, kernels and vendor blobs are in [ResurrectedRemix-Devices](https://github.com/ResurrectedRemix-Devices) and aren't part of this manifest.
+`snippets/lineage-pin.xml` fixes every LineageOS repo to the commit RR is built and tested on, so everyone syncs the same source. The forks in `snippets/rr.xml` follow `rr-17.0`. Device trees, kernels and vendor blobs are in [ResurrectedRemix-Devices](https://github.com/ResurrectedRemix-Devices) and aren't part of this manifest. `vendor/gms` is public and comes from [GitLab](https://gitlab.com/osm1019/vendor_gms), so it needs no SSH key. If you already cloned it by hand, delete that folder before your next `repo sync`.
 
 ### Build ###
 
