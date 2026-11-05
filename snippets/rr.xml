@@ -47,6 +47,7 @@
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Updater" path="packages/apps/Updater" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" path="packages/services/Telecomm" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="rr" />
@@ -133,6 +134,7 @@
   <project name="OTA" path="vendor/OTA" remote="rr" revision="refs/heads/main" />
 
   <project name="packages_overlays_Lineage" path="packages/overlays/Lineage" remote="rr" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="rr" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- Replaces vendor/lineage, removed above. -->
   <project name="vendor_rr" path="vendor/rr" remote="rr" />

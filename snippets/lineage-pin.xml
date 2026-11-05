@@ -410,8 +410,6 @@
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_packages_services_Mms" path="packages/services/Mms" revision="1a630ef37b20b486b4c14709c415e64582718a81"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
-  <extend-project name="LineageOS/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="d75099ec2298dff41dd7607c667344990c52e044"
-                  upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" revision="2d0e6fb0059b8c1cab748f6f04453c9955a14fe3"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" revision="e8d8a14c5e366d21d091c74fcdf47e7a70aa88b3"
