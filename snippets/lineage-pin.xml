@@ -258,10 +258,6 @@
                   upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
   <extend-project name="LineageOS/android_vendor_qcom_opensource_dataipa" path="hardware/qcom-caf/sm8850/dataipa" revision="4b9d4eccbe0ffc0bc1d89bb0eb0642a1365c34b0"
                   upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
-  <extend-project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8850/display/core" revision="3f56965f0690fee568903083f09a8349a803da31"
-                  upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
-  <extend-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8850/display/hal" revision="511d5ca4731479f58c398150ff7f4a59615759f8"
-                  upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
   <extend-project name="LineageOS/android_vendor_qcom_opensource_display-intf" path="hardware/qcom-caf/sm8850/display/intf" revision="70a4f1221f36758cb22595470571fcee5b976561"
                   upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
   <extend-project name="LineageOS/android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" revision="e2ff2bbb4a90503f88d2caa103fb6ed483601043"

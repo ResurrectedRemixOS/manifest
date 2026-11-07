@@ -46,6 +46,8 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8750/display/core" />
   <remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8750/display/hal" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-intf" path="hardware/qcom-caf/sm8750/display/intf" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8850/display/core" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8850/display/hal" />
   <remove-project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" />
   <remove-project name="LineageOS/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
@@ -122,6 +124,12 @@
   <project name="hardware_qcom-caf_sm8750_display_hal" path="hardware/qcom-caf/sm8750/display/hal" remote="rr"
            groups="qcom" />
   <project name="hardware_qcom-caf_sm8750_display_intf" path="hardware/qcom-caf/sm8750/display/intf" remote="rr"
+           groups="qcom" />
+
+  <!-- Qualcomm sm8850 -->
+  <project name="hardware_qcom-caf_sm8850_display_core" path="hardware/qcom-caf/sm8850/display/core" remote="rr"
+           groups="qcom" />
+  <project name="hardware_qcom-caf_sm8850_display_hal" path="hardware/qcom-caf/sm8850/display/hal" remote="rr"
            groups="qcom" />
 
   <!-- Apps -->
