@@ -28,8 +28,6 @@
                   upstream="refs/heads/lineage-24.0-caf-sm8450" dest-branch="refs/heads/lineage-24.0-caf-sm8450" />
   <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8650" revision="3d37d21988dcc27bacefc37bb469b628d5790322"
                   upstream="refs/heads/lineage-24.0-caf-sm8650" dest-branch="refs/heads/lineage-24.0-caf-sm8650" />
-  <extend-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8850" revision="520af592e4b13685e241f3f99b9b74d7a5f87e21"
-                  upstream="refs/heads/lineage-24.0-caf-sm8850" dest-branch="refs/heads/lineage-24.0-caf-sm8850" />
   <extend-project name="LineageOS/android_external_aac" path="external/aac" revision="17e6fce899d5d771b63445b587ef53e72175253a"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944"

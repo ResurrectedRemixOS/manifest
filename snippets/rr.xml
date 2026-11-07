@@ -41,6 +41,7 @@
   <remove-project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8750" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8850" />
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" />
   <remove-project name="LineageOS/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8750/display/core" />
@@ -127,6 +128,8 @@
            groups="qcom" />
 
   <!-- Qualcomm sm8850 -->
+  <project name="device_qcom_sepolicy_vndr_sm8850" path="device/qcom/sepolicy_vndr/sm8850" remote="rr"
+           groups="qcom,kaanapali-vendor" />
   <project name="hardware_qcom-caf_sm8850_display_core" path="hardware/qcom-caf/sm8850/display/core" remote="rr"
            groups="qcom" />
   <project name="hardware_qcom-caf_sm8850_display_hal" path="hardware/qcom-caf/sm8850/display/hal" remote="rr"
