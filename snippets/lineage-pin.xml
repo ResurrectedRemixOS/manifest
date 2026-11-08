@@ -134,8 +134,6 @@
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="d7f13275b6a210f56110b46609a2e83b2feccd99"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
-  <extend-project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="f67ba754d88da06b73682a5e06f2e516dc2f37b7"
-                  upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_hardware_lineage_generic-ims" path="hardware/lineage/generic-ims" revision="12db0c061efb08f9ea477a71d5d866c80771150f"
                   upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" />
   <extend-project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" revision="68dca0c523594fb7c34e94782d0f21660530a2dc"

@@ -33,6 +33,7 @@
   <remove-project name="LineageOS/android_frameworks_libs_systemui" path="frameworks/libs/systemui" />
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <remove-project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" />
   <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
   <remove-project name="LineageOS/scripts" path="lineage/scripts" />
   <remove-project name="LineageOS/android_system_media" path="system/media" />
@@ -86,6 +87,7 @@
            groups="pdk,sysui-studio" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="rr"
            groups="pdk,sysui-studio" />
+  <project name="hardware_lineage_compat" path="hardware/lineage/compat" remote="rr" />
   <project name="lineage-sdk" path="lineage-sdk" remote="rr" />
   <project name="lineage_scripts" path="lineage/scripts" remote="rr" groups="tools" />
   <project name="system_media" path="system/media" remote="rr" groups="pdk" />
